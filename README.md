@@ -79,13 +79,7 @@ Uses **nested CTEs + `RANK()`** to find the highest-spending passenger within ea
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-Any SQL environment that supports standard T-SQL / SQL Server syntax:
-- Microsoft SQL Server / SSMS
-- Azure Data Studio
-- SQL Server Express (free)
 
 > ⚠️ The `DATEDIFF` function syntax is **SQL Server specific**. For MySQL, replace with
 > `TIMESTAMPDIFF(MINUTE, DepartureTime, ArrivalTime)`. For PostgreSQL, use
